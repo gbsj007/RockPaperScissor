@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock Paper Scissor Game</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+</head>
+<body>
+
+	<header>
+		<h1>Rock Paper Scissor</h1>
+	</header>
+
+	<div id="scoreBoard">
+		<div id="userLabel" class="badge">user</div>
+		<div id="compLabel" class="badge">comp</div>
+		<span id="userScore">0</span>:<span id="compScore">0</span>
+	</div>
+
+	<div id="result">
+		<p>Paper Cover Rock. You Win!</p>
+	</div>
+
+	<div class="choices">
+		<div class="choice" id="r">
+			<i class="fas fa-hand-rock fa-4x"></i>
+		</div>
+		<div class="choice" id="p">
+			<i class="fas fa-hand-paper fa-4x"></i>
+		</div>
+		<div class="choice" id="s">
+			<i class="fas fa-hand-scissors fa-4x"></i>
+		</div>
+	</div>
+
+	<p id="actionMessage">Make Your Move.</p>
+
+	<button>Reset</button>
+
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
